@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,600');
+
+
+*{
+
+    font-family: 'Be Vietnam', sans-serif;
+    line-height: 2rem;
+}
+
+.navbar {
+    padding: .5rem;
+    text-align: center;
+}
+
+
+
+nav a {
+    transition: all .3s ease;
+    color: #64DBBA !important;
+}
+
+nav a:hover {
+    color: #51B7DD !important;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.soclia-nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center
+    ;
+}
+
+.soclia-nav ul{
+    list-style: none;
+}
+
+.jumbotron {
+    background-color:#131313;
+    height: 100vh;
+
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+.navbar{
+    background-color: #131313 !important;
+  
+}
+
+.img-fluid{
+    width: 50%;
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgba(100, 219, 186, 1);
+}
+
+
+  .jumbotron h1{
+      font-size: 2.6rem;
+      text-transform: uppercase;
+      margin:0;
+     
+  }
+
+  .card-text, .card-title {
+      color: #FFFFFF;
+      text-transform: uppercase;
+      line-height: 2rem;
+  }
+
+  
+  .card{
+    border: 2px solid #64DBBA;
+    max-width: 22rem !important;
+
+ 
+  }
+.card-deck {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box, .card {
+        background: #131313 !important;
+    
+  }
+
+  .card-body{
+    background: #141414;
+ 
+ 
+  }
+
+footer .container-fluid  {
+      background: rgba(24, 31, 29, 1) !important;
+  }
+
+.space {
+    background-color: #131313 !important;
+    height: 10rem !important;
+}
+
+
+  a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+.social a{
+    padding: 1rem;
+}
+
+.fa-facebook-square, .fa-linkedin,.fa-instagram{
+    transition: all .3s ease;
+    color: #ffffff;
+}
+
+
+
+.fa-spotify{
+    transition: all .3s ease;
+    color: #24C878;
+  
+   
+}
+
+.fa-soundcloud{
+    transition: all .3s ease;
+    color: #F85212 !important;
+   
+}
+
+.fa-soundcloud:hover{
+    transition: all .3s ease;
+    color: #d5d5d5 !important;
+}
+
+.fa-soundcloud:before {
+    content: "\f1be";
+    margin-right: .5rem;
+    font-size: 2rem;
+}
+
+
+.fa-spotify:before {
+  
+    margin-right: .5rem;
+    font-size: 2rem;
+}
+
+
+
+i.fab.fa-soundcloud, i.fab.fa-spotify{
+    border: 1px solid rgba(100, 219, 186, 1);
+    border-radius: 59px;
+    background-color: #131313 !important;
+    width: 13rem;
+    padding: .6rem !important;
+    font-size: 1.3rem;
+    justify-content: center !important;
+}
+
+.fa-spotify:hover,
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover{
+    color: #72F69F;
+
+}
+
+
+p.lead .btn {
+    transition: all .2s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 59px;
+    background-color: rgba(20, 20, 20, 1);
+}
+
+p.lead .btn:hover {
+  background-color: #46A3EC;
+
+  transform: scale(1.1);
+}
+
+
+
+
+@keyframes move {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(18px);
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    html{
+        font-size: .9rem;
+      }
+
+      .picture {
+          max-width: 75% !important;
+      }
+      
+     .logo {
+         width: 10rem !important;
+     }
+
+  
+     .navbar-toggler{
+         border: none !important;
+
+     }
+
+    .container-fluid  h2{
+        font-size: 1.5rem;
+     
+    } 
+ 
+    .carousel-item {
+        height:auto;
+      }
+
+      .carousel-caption{
+        position: absolute;
+        bottom: 2vh;
+    }
+  .section h1{
+      font-size: 2rem;
+  }
+    
+  .nav-item{
+      font-size: 1.3rem;
+      padding: .2rem;
+  }
+  .card-deck{
+     font-size: 5%; 
+
+     
+  }
+
+  .social-icon{
+      display: grid;
+
+    padding: .5rem;
+  }
+.icon-mobile{
+    display: inline-block;
+    top: 2vh;
+}  
+
+.img-fluid{
+    width: 100%;
+}
+
+
+.jumbotron {
+   
+    height: 50vh;
+
+}
+
+
+
+}
